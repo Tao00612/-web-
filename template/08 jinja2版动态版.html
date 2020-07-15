@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/t1.css">
+    <link rel="icon" href="../static/img/wode.ico">
+</head>
+<body>
+<!--{id:1,name:'jack',age:16}-->
+<h1>{{userinfo}}</h1>
+
+<ul>
+    {% for k,v in userinfo.items() %}
+        <li>{{ k }}--{{ v }}</li>
+    {% endfor %}
+</ul>
+
+
+<img src="../static/img/timg.jpg" alt="">
+
+我们的技师有：
+<ul>
+    <li>头牌 罗建</li>
+    <li>花魁 石化林</li>
+    <li>妇女之友 唐权</li>
+</ul>
+
+<script src="../static/js/j1.js"></script>
+<!--<script>-->
+<!--    alert('客官不可以')-->
+
+<!--</script>-->
+
+</body>
+</html>
